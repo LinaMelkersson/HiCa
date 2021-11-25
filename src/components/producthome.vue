@@ -358,6 +358,7 @@ a {
   display: grid;
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.5rem;
 }
 
 

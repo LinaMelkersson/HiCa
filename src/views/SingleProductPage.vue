@@ -70,10 +70,10 @@
             color="deep-purple lighten-2"
             text
             @click="add"
+            style="margin-top:1rem;"
             >
             Add to cart
             </v-btn>
-
         </div>
     </div>
 
@@ -97,11 +97,13 @@ export default {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 1rem;
+    
 }
 
 .picturepresentation {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    
 }
 
 .twopic {
@@ -111,9 +113,10 @@ export default {
 }
 .productname {
     display: grid;
-    grid-template-rows:1fr 5fr 7fr ;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     padding-left: 2rem;
+    height: 23vw;
 }
 
 .imgdisplay {
